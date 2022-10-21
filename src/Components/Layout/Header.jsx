@@ -115,34 +115,34 @@ const Header = () => {
           >
             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
               <li className="nav-item position-relative ">
-                <Link className="nav-link text-dark" aria-current="page" to="/">
+                <Link className="nav-link text-dark" aria-current="page" to="/technology">
                   Technology
                 </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark" href="#litepaper">
+                <Link className="nav-link text-dark" to="/commmunity">
                   Community
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark" href="#platform">
+                <Link className="nav-link text-dark" to="/about">
                   About
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark" href="#roadmap">
+                <Link className="nav-link text-dark" to="/blog">
                   Blog
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark" href="#faq">
+                <Link className="nav-link text-dark" to="/build">
                   Build
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link text-dark" href="/">
+                <Link className="nav-link text-dark" to="/contact">
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

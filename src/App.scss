@@ -7,6 +7,8 @@
     text-decoration-color: #bd0d80 !important;
   }
 }
+
+                                                                  //Home
 @media screen and (max-width: 600px) {
   .navbar--secondary {
     display: none !important;
@@ -210,7 +212,9 @@
     border: 2px solid #fff;
     border-radius: 50px;
     color: #fff;
+    cursor: pointer;
   }
+
   .footer-p {
     font-size: 18px;
   }
@@ -229,3 +233,307 @@
     border-color: #cb108d;
   }
 }
+
+                                                                  //Technology
+@media screen and (max-width: 600px){
+  .herotech-fluid{
+  .herotech-h1 {
+    font-size: 3rem !important;
+  }
+}
+.herotech-fluid2{ 
+  .dg-network-img{
+    margin-top: 6rem !important;
+    transform: scale(2) !important;
+    margin-bottom: 6rem !important;
+  }
+}
+.cards-row{
+  margin-bottom: 40px !important;
+}
+}
+.herotech-fluid {
+  height: 70vh;
+  .herotech-h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+  }
+}
+.cards-row{
+  margin-bottom: -50px;
+}
+.herotech-fluid2 {
+  background-color: #172026;
+  color: white;
+  .cards-row {
+    background-color: #172026 !important;
+  }
+  .dg-network-img{
+    transform: scale(1.3);
+    margin-bottom: 3rem;
+  }
+}
+
+.network-fluid1 {
+  background-color: #bd0d80 !important;
+  color: white;
+  h1{
+    font-size: 3.5rem !important;
+    font-weight: 700 !important;
+  }
+  p{
+    font-size: 1.5rem;
+  }
+}
+
+.buildtech-fluid1{
+  background-color: #EFEFEF;
+}
+
+.buildtech-fluid2{
+  background-color: #172026;
+  color: white;
+
+.build-h1{
+  font-size: 4rem;
+}
+.build-tech-p{
+  font-size: 1.5rem;
+}
+.build-h5{
+  font-size: 1.6rem;
+}
+.btn {
+  margin-top: 2rem;
+  cursor: pointer;
+  border-radius: 45px !important;
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  border-width: 2px;
+  font-weight: bold;
+}
+.btn:hover {
+  background-color:white;
+  color:#cb108d;
+  border-color: white;
+}
+}
+.buildtech-fluid3{
+  background-color: #bd0d80;
+  color: white;
+  h1{
+    padding-top: 5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  p{
+    padding-top: 1rem;
+    font-size: 1.2rem;
+    padding-bottom: 5rem;
+  }
+}
+
+.modal-fluid1{
+  h1{
+    padding-bottom: 2rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  p{
+    font-size: 1.4rem;
+  }
+}
+
+.roadmap-fluid{
+  background-color: #cb108d;
+  color: white;
+  h1{
+    padding-bottom: 2.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+  }
+  p{
+    font-size: 1.4rem;
+  }
+  .btn {
+    margin-top: 2.5rem;
+    cursor: pointer;
+    border-radius: 45px !important;
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background-color:white;
+    color:#cb108d;
+    border-color: white;
+  } 
+}
+
+.roadcards-fluid{
+  h1{
+    padding-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .card{
+    margin-top: 1rem;
+    background-color:white;
+    box-shadow: 0px 0px 3px 3px rgba(222, 219, 219, 0.5); 
+  }
+  .card2{
+    height: 10rem;
+  }
+  .card3{
+    height: 7rem;
+  }
+  .btn {
+    margin-top: 2.5rem;
+    cursor: pointer;
+    border-radius: 45px !important;
+    color:#cb108d;
+    background-color: transparent;
+    border-color:#cb108d;
+    border-width: 2px;
+    font-weight: bold;
+  }
+  .btn:hover {
+    background-color:#cb108d;
+    color:white;
+    border-color:#cb108d;
+  } 
+}
+
+                                                                    //Community
+@media screen and (max-width: 600px){
+  .herocomm-fluid{
+  .herocomm-h1 {
+    font-size: 3rem !important;
+  }
+}
+
+
+}
+.herocomm-fluid {
+  height: 70vh;
+  .herocomm-h1 {
+    font-size: 5.5rem;
+    font-weight: 700;
+  }
+  .herocomm-p{
+    font-size: 1.5rem;
+  }
+}
+.cards-container{
+  margin-bottom: -270px;
+  .shadow-lg{
+    border-radius: 20px;
+  }
+}
+.herocomm-fluid2 {
+  
+  background-color: #172026;
+  color: white;
+  .row1{
+    padding-top: 20rem !important;
+
+    h1{
+      text-align: center;
+      font-size: 4rem;
+      font-weight: 700;
+    }
+  }
+  .btn {
+    cursor: pointer;
+    border-radius: 45px !important;
+    color:#cb108d;
+    background-color: transparent;
+    border-color:#cb108d;
+    border-width: 1px;
+  }
+  .btn:hover {
+    background-color:#cb108d;
+    color:white;
+    border-color:#cb108d;
+  } 
+
+}
+
+.herocomm-fluid3{
+  background-color: #cb108d;
+  color: white;
+  h1{
+    padding-top: 6rem;
+    text-align: center;
+      font-size: 4rem;
+      font-weight: 700;
+  }
+  p{
+    padding-bottom: 6rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  
+}
+
+.validator-fluid{
+  h1{
+    font-size: 3rem;
+      font-weight: 700;
+  }
+  h3{
+    font-size: 1.7rem;
+    font-weight: 700;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  ul li{
+    font-size: 1.2rem;
+  }
+  .span-li{
+    color: #cb108d;
+  }
+  .btn {
+    cursor: pointer;
+    border-radius: 45px !important;
+    color:#cb108d;
+    background-color: transparent;
+    border-color:#cb108d;
+    border-width: 1px;
+    font-weight: 700;
+  }
+  .btn:hover {
+    background-color:#cb108d;
+    color:white;
+    border-color:#cb108d;
+  } 
+}
+.validator-fluid1{
+  h2{
+    font-weight: 700;
+    font-size: 2rem;
+  }
+  p{
+    font-size: 1.2rem;
+  }
+  background-color: #EFEFEF;
+  .btn {
+    cursor: pointer;
+    border-radius: 45px !important;
+    color:#cb108d;
+    background-color: transparent;
+    border-color:#cb108d;
+    border-width: 1px;
+    font-weight: 700;
+  }
+  .btn:hover {
+    background-color:#cb108d;
+    color:white;
+    border-color:#cb108d;
+  } 
+}
+
