@@ -106,7 +106,6 @@ const HeroTech = () => {
               on a public chain.
             </p>
           </div>
-          {/* </div> */}
         </div>
       </div>
     </>

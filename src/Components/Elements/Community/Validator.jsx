@@ -61,7 +61,7 @@ const Validator = () => {
       </div>
       <div className="container-fluid validator-fluid1 py-5">
         <div className="container">
-          <div className="row">
+          <div className="row validation-row">
             <div className="col-md-6">
               <h2>Get a grant to build the Polkadot ecosystem</h2>
               <p>
@@ -75,16 +75,60 @@ const Validator = () => {
               </a>
             </div>
             <div className="col-md-6">
-                <h2>Apply for funding from the Polkadot treasury</h2>
-                <p>The Polkadot community supports projects that benefit the network with funding from the Polkadot treasury, an on-chain pot of DOT tokens. Submit a proposal for a project related to software, infrastructure, or app development, marketing, community outreach, educational initiatives, and more.</p>
-                <a href="/parachains" className="btn btn-primary btn-lg me-3">
-                Learn More
-              </a>
-              <h2>Become a Polkadot Ambassador</h2>
-              <p>Check out the post and apply to join the vibrant polkadot community.</p>
+              <h2>Apply for funding from the Polkadot treasury</h2>
+              <p>
+                The Polkadot community supports projects that benefit the
+                network with funding from the Polkadot treasury, an on-chain pot
+                of DOT tokens. Submit a proposal for a project related to
+                software, infrastructure, or app development, marketing,
+                community outreach, educational initiatives, and more.
+              </p>
               <a href="/parachains" className="btn btn-primary btn-lg me-3">
                 Learn More
               </a>
+              <h2 className="pt-5">Become a Polkadot Ambassador</h2>
+              <p>
+                Check out the post and apply to join the vibrant polkadot
+                community.
+              </p>
+              <a href="/parachains" className="btn btn-primary btn-lg me-3">
+                Apply to become an Ambassador
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid validator-fluid2 py-5">
+        <div className="container">
+          <div className="row py-5">
+            <div className="col-md-6">
+              <h1>Upcoming events</h1>
+              <p>
+                Want to host a Polkadot meetup in your city? Check out the
+                resources and guides for hosting your own Polkadot meetup.
+              </p>
+              <a
+                href="/parachains"
+                className="btn btn-primary btn-lg me-3 mt-3"
+              >
+                Host a Polkadot Meetup
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container-fluid validator-fluid3 py-5">
+        <div className="container">
+          <div className="row align-item-center justify-content-center py-5 ">
+            <div className="col-md-6 text-center">
+              <h1>Get your questions answered</h1>
+              <a
+                href="/parachains"
+                className="btn btn-primary btn-lg me-3 mt-3"
+              >
+                Join the Polkadot Chat
+              </a>
+              <p>or learn how to build on Polkadot.</p>
             </div>
           </div>
         </div>
