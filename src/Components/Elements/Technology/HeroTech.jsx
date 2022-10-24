@@ -18,14 +18,14 @@ const HeroTech = () => {
       <div className="container cards-row">
           <div className="row align-item-center justify-content-center text-dark">
             <div className="col-md-3 mt-3 ">
-              <div className="card shadow-lg bg-white hover-effect rounded-lg">
+              <div className="card card-tech shadow-lg bg-white hover-effect rounded-lg">
                 <div className="card-body py-2">
                   <div className="d-flex align-items-center">
                     <img
                       src="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=ea608e625d"
                       className="icon me-2 "
                       alt=""
-                      width={70}
+                     width={50}
                     />
                     <div>
                       <h5 className="mb-1">GitHub</h5>
@@ -36,14 +36,14 @@ const HeroTech = () => {
               </div>
             </div>
             <div className="col-md-3 mt-3">
-              <div className="card shadow-lg bg-white hover-effect card-pill rounded-lg">
+              <div className="card card-tech shadow-lg bg-white hover-effect card-pill rounded-lg">
                 <div className="card-body py-2">
                   <div className="d-flex align-items-center">
                     <img
                       src="https://polkadot.network/assets/img/logos/logo-circle-documentation.svg?v=ea608e625d"
                       className="icon me-2 "
                       alt=""
-                      width={70}
+                     width={50}
                     />
                     <div>
                       <h5 className="mb-1">Documentation</h5>
@@ -54,14 +54,14 @@ const HeroTech = () => {
               </div>
             </div>
             <div className="col-md-3 mt-3 mb-3">
-              <div className="card shadow-lg bg-white hover-effect card-pill rounded-lg">
+              <div className="card card-tech shadow-lg bg-white hover-effect card-pill rounded-lg">
                 <div className="card-body py-2">
                   <div className="d-flex align-items-center">
                     <img
                       src="https://polkadot.network/assets/img/logos/logo-circle-element.svg?v=ea608e625d"
                       className="icon me-2 "
                       alt=""
-                      width={70}
+                     width={50}
                     />
                     <div>
                       <h5 className="mb-1">Element chat</h5>

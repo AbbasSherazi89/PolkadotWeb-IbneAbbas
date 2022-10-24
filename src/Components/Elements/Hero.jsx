@@ -28,10 +28,18 @@ const Hero = () => {
             </div>
             <div className="col-md-6 xcm-animation-col">
               <ScrollRotate>
-                <span className="">
-                  <img className="img-fluid xcm-animation-inner" src="assets/xcm-animation-outer.svg" alt="" width={500} />
-                  <img className="img-fluid xcm-animation-outer" src="assets/xcm-animation-inner.png" alt="" width={500}/>
-                </span>
+                <img
+                  className="img-fluid xcm-animation-inner"
+                  src="assets/xcm-animation-outer.svg"
+                  alt=""
+                  width={500}
+                />
+                <img
+                  className="img-fluid xcm-animation-outer"
+                  src="assets/xcm-animation-inner.png"
+                  alt=""
+                  width={500}
+                />
               </ScrollRotate>
             </div>
           </div>

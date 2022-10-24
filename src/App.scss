@@ -9,13 +9,27 @@
   }
 }
 
+.message-img{
+  cursor: pointer;
+  background-color: #cb108d;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  border-radius: 52px;
+}
+
 ////////////////////////////////////////////////////////////////////Home///////////////////////
 @media screen and (max-width: 600px) {
+  .message-img{
+    bottom: 2rem;
+  right: 1rem;
+  }
   .navbar--secondary {
     display: none !important;
   }
   .hero-fluid {
     .hero-h1 {
+      text-align: left !important;
       font-weight: 700 !important;
       font-size: 3.5rem !important;
     }
@@ -24,6 +38,12 @@
     }
     .xcm-animation-col {
       margin-top: 4rem !important;
+    }
+    .xcm-animation-inner{
+      width: 70vw !important;
+    }
+    .xcm-animation-outer{
+      width: 70vw !important;
     }
   }
   .cards-fluid {
@@ -98,6 +118,8 @@
     font-size: 2.5rem;
   }
   .btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
     cursor: pointer;
     border-radius: 45px !important;
     color: #cb108d;
@@ -105,11 +127,15 @@
     border-color: #cb108d;
     border-width: 2px;
     font-weight: bold;
+    background: linear-gradient(to right, #cb108d 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.5s ease-out;
   }
   .btn:hover {
-    background-color: #cb108d;
-    color: white;
+    background-position: left;
     border-color: #cb108d;
+    border-bottom-color: #cb108d;
   }
 }
 
@@ -123,18 +149,24 @@
   }
 
   .btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
     cursor: pointer;
     border-radius: 45px !important;
-    color: white;
-    background-color: #172026;
+    color: #cb108d;
+    background-color: transparent;
     border-color: #cb108d;
     border-width: 2px;
     font-weight: bold;
+    background: linear-gradient(to right, #cb108d 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.3s ease-out;
   }
   .btn:hover {
-    background-color: #cb108d;
-    color: white;
+    background-position: left;
     border-color: #cb108d;
+    border-bottom-color: #cb108d;
   }
 }
 
@@ -162,18 +194,24 @@
     font-size: 4rem;
   }
   .btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
     cursor: pointer;
     border-radius: 45px !important;
-    color: white;
+    color: #cb108d;
     background-color: transparent;
     border-color: #cb108d;
     border-width: 2px;
     font-weight: bold;
+    background: linear-gradient(to right, #cb108d 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.3s ease-out;
   }
   .btn:hover {
-    background-color: #cb108d;
-    color: white;
+    background-position: left;
     border-color: #cb108d;
+    border-bottom-color: #cb108d;
   }
 }
 
@@ -185,26 +223,27 @@
     height: 37rem !important;
   }
   .btn {
+    padding-top: 15px;
+    padding-bottom: 15px;
     cursor: pointer;
     border-radius: 45px !important;
-    color: #bd0d80;
+    color: #cb108d;
     background-color: transparent;
     border-color: #cb108d;
     border-width: 2px;
     font-weight: bold;
+    background: linear-gradient(to right, #cb108d 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.3s ease-out;
   }
   .btn:hover {
-    background-color: #cb108d;
-    color: white;
+    background-position: left;
     border-color: #cb108d;
+    border-bottom-color: #cb108d;
   }
   .card-img-top {
     aspect-ratio: 2/1;
-    -o-object-fit: cover;
-    object-fit: cover;
-    width: 100%;
-    border-top-left-radius: calc(0.375rem - 0px);
-    border-top-right-radius: calc(0.375rem - 0px);
   }
   .img {
     vertical-align: middle;
@@ -240,7 +279,13 @@
 .cards-row {
   margin-bottom: -50px !important;
   .card {
-    height: 120px !important;
+    border-radius: 20px;
+  }
+  .card-tech:hover{
+    cursor: pointer;
+    transform: translatey(-10px);
+    position: relative;
+    transition: .2s;
   }
 }
 .herotech-fluid2 {
@@ -285,19 +330,24 @@
     font-size: 1.6rem;
   }
   .btn {
-    margin-top: 2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
     cursor: pointer;
     border-radius: 45px !important;
-    color: white;
+    color: #cb108d;
     background-color: transparent;
-    border-color: white;
+    border-color: #cb108d;
     border-width: 2px;
     font-weight: bold;
+    background: linear-gradient(to right, #cb108d 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.3s ease-out;
   }
   .btn:hover {
-    background-color: white;
-    color: #cb108d;
-    border-color: white;
+    background-position: left;
+    border-color: #cb108d;
+    border-bottom-color: #cb108d;
   }
 }
 
@@ -339,19 +389,24 @@
     font-size: 1.4rem;
   }
   .btn {
-    margin-top: 2.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
     cursor: pointer;
     border-radius: 45px !important;
-    color: white;
+    color: #cb108d;
     background-color: transparent;
-    border-color: white;
+    border-color: #cb108d;
     border-width: 2px;
     font-weight: bold;
+    background: linear-gradient(to right,  50%, white 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.3s ease-out;
   }
   .btn:hover {
-    background-color: white;
-    color: #cb108d;
-    border-color: white;
+    background-position: left;
+    border-color: #cb108d;
+    border-bottom-color: #cb108d;
   }
 }
 
@@ -373,7 +428,8 @@
     height: 7rem;
   }
   .btn {
-    margin-top: 2.5rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
     cursor: pointer;
     border-radius: 45px !important;
     color: #cb108d;
@@ -381,11 +437,15 @@
     border-color: #cb108d;
     border-width: 2px;
     font-weight: bold;
+    background: linear-gradient(to right, #cb108d 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all 0.3s ease-out;
   }
   .btn:hover {
-    background-color: #cb108d;
-    color: white;
+    background-position: left;
     border-color: #cb108d;
+    border-bottom-color: #cb108d;
   }
 }
 
@@ -397,6 +457,7 @@
     }
   }
   .cards-container {
+    margin-top: 15rem;
     margin-bottom: 20px !important;
   }
   .herocomm-fluid2 {
@@ -422,19 +483,25 @@
   }
 }
 .herocomm-fluid {
-  height: 70vh;
+  height: 50vh;
   .herocomm-h1 {
     font-size: 5.5rem;
     font-weight: 700;
   }
   .herocomm-p {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 }
 .cards-container {
-  margin-bottom: -270px;
+  margin-bottom: -210px;
   .shadow-lg {
     border-radius: 20px;
+  }
+  .card-comm:hover{
+    cursor: pointer;
+    transform: translatey(-10px);
+    position: relative;
+    transition: .2s;
   }
 }
 .herocomm-fluid2 {
@@ -1012,6 +1079,9 @@
 
 /////////////////////////////////////////////////Footer//////////////////////////////
 
+@media screen and (max-width:600px) {
+  
+}
 .footer-fluid {
   background-color: #172026;
   color: white;

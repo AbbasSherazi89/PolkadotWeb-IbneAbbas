@@ -26,5 +26,16 @@
         }
       }
       </script> -->
+      <script>
+        // When the user scrolls down 50px from the top of the document, resize the header's font size
+        window.onscroll = function() {scrollFunction()};
+        function scrollFunction() {
+          if (document.body.scrollTop > 600 || document.documentElement.scrollTop > 700 ) {
+            document.getElementById("message");
+          } else {
+            document.getElementById("message");
+          }
+        }
+        </script>
   </body>
 </html>
