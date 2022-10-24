@@ -5,7 +5,7 @@ const HeroTech = () => {
     <>
       <div className="container-fluid herotech-fluid py-5">
         <div className="container">
-          <div className="row cards-row text-center justify-content-center">
+          <div className="row text-center justify-content-center">
             <div className="col-md-12 col-lg-10 spacer-y-3">
               <h1 className="mb-4 text-dark herotech-h1" data-aos="fade-up">
                 A scalable, interoperable &amp; secure network protocol for the
@@ -25,7 +25,7 @@ const HeroTech = () => {
                       src="https://polkadot.network/assets/img/logos/logo-circle-github.svg?v=ea608e625d"
                       className="icon me-2 "
                       alt=""
-                      width={80}
+                      width={70}
                     />
                     <div>
                       <h5 className="mb-1">GitHub</h5>
@@ -43,7 +43,7 @@ const HeroTech = () => {
                       src="https://polkadot.network/assets/img/logos/logo-circle-documentation.svg?v=ea608e625d"
                       className="icon me-2 "
                       alt=""
-                      width={80}
+                      width={70}
                     />
                     <div>
                       <h5 className="mb-1">Documentation</h5>
@@ -53,7 +53,7 @@ const HeroTech = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3 mt-3">
+            <div className="col-md-3 mt-3 mb-3">
               <div className="card shadow-lg bg-white hover-effect card-pill rounded-lg">
                 <div className="card-body py-2">
                   <div className="d-flex align-items-center">
@@ -61,7 +61,7 @@ const HeroTech = () => {
                       src="https://polkadot.network/assets/img/logos/logo-circle-element.svg?v=ea608e625d"
                       className="icon me-2 "
                       alt=""
-                      width={80}
+                      width={70}
                     />
                     <div>
                       <h5 className="mb-1">Element chat</h5>

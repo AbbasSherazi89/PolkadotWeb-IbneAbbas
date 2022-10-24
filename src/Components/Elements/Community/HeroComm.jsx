@@ -5,8 +5,8 @@ const HeroComm = () => {
     <>
       <div className="container-fluid herocomm-fluid py-5">
         <div className="container">
-          <div className="row cards-row text-center justify-content-center">
-            <div className="col-md-12 col-lg-10 spacer-y-3">
+          <div className="row text-center justify-content-center">
+            <div className="col-md-12">
               <h1 className="mb-4 text-dark herocomm-h1" data-aos="fade-up">
                 Join the Polkadot community
               </h1>

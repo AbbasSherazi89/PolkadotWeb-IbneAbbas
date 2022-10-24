@@ -311,8 +311,8 @@ const BlogBlog = () => {
             </div>
             <div className="col-md-1" />
           </div>
-          <div className="row align-item-center justify-content-center py-5">
-            <div className="col-md-4">
+          <div className="row pagination-row">
+            <div className="col-md-4 text-center">
               <nav aria-label="Page navigation">
                 <ul className="pagination">
                   <li className="page-item">
